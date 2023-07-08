@@ -9,6 +9,7 @@ main {
 main section {
   margin-top: 130px;
 }
+
 /* nav related styles */
 
 nav {
@@ -202,4 +203,26 @@ nav li a {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 100px;
+}
+/* footer */
+footer {
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
+  padding: 0px 230px;
+}
+.footer-column {
+  width: 50%;
+}
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  width: 100%;
+  border: 0;
+}
+.socail-link {
+  text-align: center;
 }
